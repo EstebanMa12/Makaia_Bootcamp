@@ -1,0 +1,22 @@
+html{
+    background-color: brown;
+}
+.container{
+    background-color: blueviolet;
+}
+
+#productos{
+    background-color: aqua;
+}
+.container #productos{
+    background-color: yellow;
+}
+.container input{
+    background-color: azure;
+}
+.container > div{
+    background-color: black;
+}
+.container:hover{
+    background-color: chartreuse;
+}
