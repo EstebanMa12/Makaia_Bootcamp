@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css"  href="./styles.css" />
+</head>
+<body>
+    <h1 class="titulo">Este es un ejemeplo de Javascript</h1>
+    <input id="nombre" type="text" placeholder="nombre" value="Ana"  />
+    <input type="email" placeholder="ana@gmail.com" name="email" id="email" onchange="showchanges(event)" />
+    <h1>Ejercicio de practica - Agregar Producto</h1>
+    <form id="producto">
+        <input type="text" name="nombre" placeholder="Nombre del producto"/><br/>
+        <input type="number" name="precio" placeholder="Precio"/><br/>
+        <input type="number" name="cantidad" placeholder="Cantidad"/><br/>
+        <select name="categoria">
+            <option value="granos">Granos</option>
+            <option value="lacteos">Lacteos</option>
+            <option value="verduras">Verduras</option>
+        </select><br/>
+        <button type="submit">Guardar</button>
+    </form>
+    <h1>Lista de productos</h1>
+    <ul id="listaProductos">
+
+    </ul>
+    <script type="text/javascript" src="./funciones.js"></script>
+</body>
+</html>
