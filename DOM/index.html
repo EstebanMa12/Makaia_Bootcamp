@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Este es el ejercicion No. 1</h1>
+    <form id="myForm">
+        <label for="nombre">Nombre</label>
+        <input onchange="console.log('cambio el nombre')" id="nombre" type="text" placeholder="Ingrese su nombre">
+        <label for="apellido">Apellido</label>
+        <input id="apellido" type="text" placeholder="Ingrese su apellido">
+        <label for="telefono">Telefono</label>
+        <input id="telefono" type="text" placeholder="Ingrese su telefono">
+        <button id="guardar" type="button" onclick="btnOnClick()">Guardar</button>  
+    </form>
+    <p id="Result"></p>
+    <script src="./script.js"></script>
+</body>
+</html>

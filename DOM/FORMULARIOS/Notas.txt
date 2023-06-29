@@ -1,0 +1,7 @@
+Todo formukario debe tener un tipo y un nombre Obligatoriamente, los demás campos si son opcionales
+
+Atributos:
+placeholder: Sugerencia al usuario antes de escribir
+autofocus: Coloca el cursor en el campos
+autocomplete: Activa o desactiva el autocompletado
+
