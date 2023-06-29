@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    margin: 50px;
+    color: white;
+}
+
+img{
+    width: 400px;
+    height: auto;
+    border-radius: 15px 15px 0 0;
+}
+
+input::placeholder{
+    color: red;
+}
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    width: 370px;
+    height: 200px;
+    background-color:cadetblue;
+    padding: 15px;
+    border-radius: 0 0 15px 15px;
+    border: 2px solid red;
+    text-align: center;
+}
+form label{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+form button{
+    margin-top: 25px;
+    background-color: salmon;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+form input{
+    border-radius: 5px;
+    border: none;
+}
+button:hover{
+    background-color: rgb(255, 229, 123);
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA DE IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <img src="https://inuba.com/wp-content/uploads/2022/03/como-calcular-indice-masa-corporal.webp" alt="">
+        <form action="" onsubmit="calcularIMC(); return false">
+            <label for="">Escribe tu nombre: </label>
+            <input type="text" placeholder="Escribe tu nombre" id="nombre"> 
+            <br>
+            <label for="">Ingresa tu altura</label>
+            <input type="text" id="altura">
+            <br>
+            <label for="">Tu peso</label>
+            <input type="text" id="peso">
+            <br>
+            <button type="submit">Calcular IMC</button>
+            <p id="resultado"></p>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
