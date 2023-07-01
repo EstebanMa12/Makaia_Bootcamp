@@ -1,0 +1,30 @@
+html{
+    min-height:50%;
+}
+
+body{
+    margin: 10%;
+    padding: 0;
+    background-color: rgb(53, 53, 225);
+    min-height: 50%;
+    padding-bottom: 5rem;
+    font-size: 1rem ;
+}
+h1{
+    color: white;
+}
+.label{
+    color: white;
+}
+
+#btnBuscar{
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(151, 181, 226);
+    padding: 0.8rem;
+}
+
+#inputBuscador{
+    border-radius: 5px;
+
+}
