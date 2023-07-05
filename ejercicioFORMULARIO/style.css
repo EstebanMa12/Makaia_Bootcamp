@@ -16,6 +16,10 @@ h1{
 .label{
     color: white;
 }
+td > button{
+    background-color: red;
+    color: white;
+}
 
 #btnBuscar{
     border-radius: 15px;
@@ -42,21 +46,6 @@ h1{
     }
     .card-title{
         display: none;
-    }
-    .table th:nth-child(1),
-    .table td:nth-child(1),
-    .table th:nth-child(2),
-    .table td:nth-child(2),
-    .table th:nth-child(3),
-    .table td:nth-child(3) {
-        width: 25%;
-    }
-
-    .table th:nth-child(4),
-    .table td:nth-child(4),
-    .table th:nth-child(5),
-    .table td:nth-child(5) {
-        width: 20%;
     }
     .form-group.row label{
         margin-bottom: 5px;

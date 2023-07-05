@@ -37,7 +37,7 @@ function getLocalStorage() {
             <td>${hora}</td>
             <td>${sintoma}</td>
             <td>
-                <button onClick = "eliminarCita(${index}) class= "btn btn-danger">Elimina</button>
+                <button onClick = "eliminarCita(${index}) class= "btn btn-danger">Eliminar</button>
             </td>
         </tr>
         `;
