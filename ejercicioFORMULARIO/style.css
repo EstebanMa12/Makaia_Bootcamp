@@ -28,3 +28,46 @@ h1{
     border-radius: 5px;
 
 }
+.form-group.row sintomas{
+    display: off;
+}
+#sintomas::placeholder{
+    color: transparent;
+}
+
+@media (max-width:575px){
+    .table th,
+    .table td{
+        padding : 4px;
+    }
+    .card-title{
+        display: none;
+    }
+    .table th:nth-child(1),
+    .table td:nth-child(1),
+    .table th:nth-child(2),
+    .table td:nth-child(2),
+    .table th:nth-child(3),
+    .table td:nth-child(3) {
+        width: 25%;
+    }
+
+    .table th:nth-child(4),
+    .table td:nth-child(4),
+    .table th:nth-child(5),
+    .table td:nth-child(5) {
+        width: 20%;
+    }
+    .form-group.row label{
+        margin-bottom: 5px;
+        display: none;
+    }
+    .orm-group.row label{
+        display: none;
+    }
+    #sintomas::placeholder{
+        color: gray;
+    }
+
+
+}
