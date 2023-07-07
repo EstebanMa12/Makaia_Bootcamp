@@ -16,6 +16,10 @@ h1{
 .label{
     color: white;
 }
+td > button{
+    background-color: red;
+    color: white;
+}
 
 #btnBuscar{
     border-radius: 15px;
@@ -26,5 +30,33 @@ h1{
 
 #inputBuscador{
     border-radius: 5px;
+
+}
+.form-group.row sintomas{
+    display: off;
+}
+#sintomas::placeholder{
+    color: transparent;
+}
+
+@media (max-width:575px){
+    .table th,
+    .table td{
+        padding : 4px;
+    }
+    .card-title{
+        display: none;
+    }
+    .form-group.row label{
+        margin-bottom: 5px;
+        display: none;
+    }
+    .orm-group.row label{
+        display: none;
+    }
+    #sintomas::placeholder{
+        color: gray;
+    }
+
 
 }

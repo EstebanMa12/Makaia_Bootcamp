@@ -1,0 +1,165 @@
+.page_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 5em;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-items: center;
+    background-color: #ff7a7a;
+    background-image: url(SPRINTS\SPRINT2\media\bg-intro-mobile.491d4c07.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1em;
+}
+
+body,html{
+    min-height: 100svh;
+    min-height: 100vh;
+    width: 100vw;
+    touch-action: pan-y;
+    overflow-x: hidden
+}
+input,input:focus {
+    border: none;
+    outline: none
+}
+.page_section .page_textContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.3em;
+    color: #fff;
+    max-width: 80%;
+}
+.page_section .page_plan{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.page_section .page_plan .page_price{
+    background-color: #6055a5;
+    padding: 1.5em 2em;
+    border-radius: 8px;
+    box-shadow: 0 6px 2px 0 rgba(0,0,0,.205)
+}
+.page_section .page_plan .page_price p{
+color: #b9b6d3;
+}
+.page_section .page_plan .page_price p span{
+    color: #fff;
+    font-weight: 700;
+}
+.page_section .page_plan main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    max-width: 92%;
+    padding: 1em 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 0 0 rgba(0,0,0,.219)
+}
+.page_section .page_plan main form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    padding: 1.5em;
+    gap: 1.8em;
+}
+.page_section .page_plan main form input{
+    border: 1.5px solid #dcdcdc;
+    padding: 1em 2em;
+    border-radius: 5px;
+}
+.page_section .page_plan main form input::placeholder{
+    font-weight: 700;
+}
+.page_section .page_plan main form input:focus{
+    border: 1.5px solid #3e3c49;
+}
+.page_section .page_plan main form label{
+    font-size: .6em;
+}
+.page_section .page_plan main form label:first-of-type{
+    position: absolute;
+    top: 7.6em;
+    right: 2.5em;
+    color: #ff7a7a;
+}
+
+.page_section .page_plan main form label:nth-of-type(3){
+    position: absolute;
+    top: 15em;
+    right: 2.5em;
+    color: #ff7a7a;
+}
+.page_section .page_plan main form label:nth-of-type(5){
+    position: absolute;
+    top: 22.5em;
+    right: 2.5em;
+    color: #ff7a7a;
+}
+.page_section .page_plan main form label:nth-of-type(7){
+    position: absolute;
+    top: 30em;
+    right: 2.5em;
+    color: #ff7a7a;
+}
+.page_section .page_plan main form label:nth-of-type(2){
+    position: absolute;
+    top: 3.5em;
+    right: 4em;
+}
+.page_section .page_plan main form label:nth-of-type(4){
+    position: absolute;
+    top: 11em;
+    right: 4em;
+}
+.page_section .page_plan main form label:nth-of-type(6){
+    position: absolute;
+    top: 18.5em;
+    right: 4em;
+}
+.page_section .page_plan main form label:nth-of-type(8){
+    position: absolute;
+    top: 26.2em;
+    right: 4em;
+}
+.page_section .page_plan main form button{
+    padding: 1.5em;
+    background-color: #38cc8c;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 4px;
+    box-shadow: 3px 5px 5px 0 rgba(0,0,0,.219);
+    border: none;
+    border-bottom: 3px solid rgba(0,0,0,.082);
+    cursor: pointer;
+}
+.page_section .page_plan main p{
+    font-size: .8em;
+    max-width: 80%;
+    text-align: center;
+    color: #b9b6d3;
+}
+.page_section .page_plan main p span{
+    cursor: pointer;
+    color: #ff7a7a;
+    font-weight: 700;
+}
+
+
+
+
