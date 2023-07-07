@@ -1,0 +1,9 @@
+SPRINT 2 - E-COMMERCE FRONT 6:
+- Crear una lista de productos en json-server
+- Exhibir los productos segun el diseño (productos traidos del json-server)
+- Formulario de checkout en modal con almacenamiento en json server (nombre, cedula, tarjeta de credito)
+- Uso de sweetalert
+- Filtrar los productos por collection - men - women en el header
+- implementación del carrito de compras
+- implementación de la galeria
+- implementacion del responsive
