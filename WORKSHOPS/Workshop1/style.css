@@ -82,6 +82,8 @@ color: #b9b6d3;
     border: 1.5px solid #dcdcdc;
     padding: 1em 2em;
     border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: 230px;
 }
 .page_section .page_plan main form input::placeholder{
     font-weight: 700;
