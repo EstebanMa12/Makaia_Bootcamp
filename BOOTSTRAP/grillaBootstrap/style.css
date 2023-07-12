@@ -1,0 +1,7 @@
+.col{
+    border: 1px solid blue;
+}
+
+.col-9, .col-3{
+    border: 1px solid red;
+}
