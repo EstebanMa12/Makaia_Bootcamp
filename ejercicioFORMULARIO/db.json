@@ -1,0 +1,18 @@
+{
+  "productos": [
+    {
+      "nombre": "Zapato de hombre",
+      "precio": "60.000 COP",
+      "descripcion": "Unos tenis muy lindos",
+      "calificacion": 5
+    },
+    {
+      "nombre": "Zapato de mujer",
+      "precio": "80.000 COP",
+      "descripcion": "Unos tacones muy altos",
+      "calificacion": 5,
+      "id": 2
+    }
+  ],
+  "compras": []
+}
