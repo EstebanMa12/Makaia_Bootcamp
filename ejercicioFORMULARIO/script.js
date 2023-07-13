@@ -1,3 +1,7 @@
+import {listProduct} from './services/api.js';
+
+
+
 const formulario = document.querySelector("form")
 
 let listarCita = document.getElementById('listarCita')
