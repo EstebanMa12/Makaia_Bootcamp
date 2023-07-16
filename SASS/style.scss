@@ -1,0 +1,27 @@
+@use 'anidacion';
+
+/* Variables */
+$color_letra: white;
+
+body{
+    background: black;
+    color: $color_letra;
+}
+
+// MIXINS
+
+@mixin containerPersonalizado($fondo: rgb(22, 10, 10)){
+    background-color: $fondo;
+    border: 4px solid gold;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+}
+
+.container{
+    @include containerPersonalizado(rgb(240, 24, 179));
+}
+
+// Operadores
+

@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container h1 {
+  color: yellow;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: dotted;
+}
+.container h2 {
+  color: aqua;
+  text-decoration: line-through;
+}
+.container img {
+  width: 500px;
+  height: auto;
+}
+.container p {
+  color: red;
+}
+
+/* Variables */
+body {
+  background: black;
+  color: white;
+}
+
+.container {
+  background-color: rgb(240, 24, 179);
+  border: 4px solid gold;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  height: 25rem;
+}
+
+/*# sourceMappingURL=style.css.map */
