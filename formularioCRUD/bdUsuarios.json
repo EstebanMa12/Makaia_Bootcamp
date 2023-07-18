@@ -1,0 +1,22 @@
+{
+  "usuarios": [
+    {
+      "nombres": "Elizabeth",
+      "apellido": "Alzate de Maya",
+      "correo": "EliMamasita@gmail.com",
+      "id": 1
+    },
+    {
+      "nombre": "Daniel Esteban Maya Portillo ",
+      "apellido": "Maya",
+      "correo": "daesmapo@gmail.com",
+      "id": 2
+    },
+    {
+      "nombre": "Daniel Esteban Maya Portillo ",
+      "apellido": "Maya",
+      "correo": "daesmapo@gmail.com",
+      "id": 3
+    }
+  ]
+}
