@@ -2,8 +2,8 @@
   "usuarios": [
     {
       "nombres": "Elizabeth",
-      "apellido": "Alzate de Maya",
-      "correo": "EliMamasita@gmail.com",
+      "apellido": "Alzate",
+      "correo": "Eli@gmail.com",
       "id": 1
     },
     {
@@ -17,6 +17,36 @@
       "apellido": "Maya",
       "correo": "daesmapo@gmail.com",
       "id": 3
+    },
+    {
+      "nombre": "Pepito",
+      "apellido": "Martinez",
+      "correo": "pepito@hotmail.com",
+      "id": 4
+    },
+    {
+      "nombre": "Pepito",
+      "apellido": "Perez",
+      "correo": "Pepito@gasds.com",
+      "id": 5
+    },
+    {
+      "nombre": "Perenzejito",
+      "apellido": "Suarez",
+      "correo": "Perensejo@gasds.com",
+      "id": 6
+    },
+    {
+      "nombre": "Perenzejito",
+      "apellido": "Suarez",
+      "correo": "Perensejo@gasds.com",
+      "id": 7
+    },
+    {
+      "nombre": "Pepito",
+      "apellido": "Perez",
+      "correo": "Pepito@gasds.com",
+      "id": 8
     }
   ]
 }
