@@ -39,3 +39,11 @@ formulario.addEventListener('submit', async e => {
     let data = resp.json()
     console.log(data);
 })
+btnEliminar.addEventListener('Click',()=>{
+    let idEliminar = document.getElementById('id').value
+    let resp = fetch(`http://localhost:3000/usuarios/${idEliminar}`,{
+        method: 'DELETE'
+    })
+    let data = resp.json()
+    console.log(data)
+})
