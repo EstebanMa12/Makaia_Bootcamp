@@ -1,5 +1,22 @@
+.header__autentication {
+  border: 2px solid black;
+  display: flex;
+}
+.header__navigation {
+  border: 2px solid blue;
+  padding: 10px;
+}
+
 body {
-  color: blue;
+  margin: 50px;
+}
+
+.header__navigation {
+  border: 1px solid black;
+}
+
+.attribution {
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -5,19 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <script src="styles.css"></script>
+  <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+    <main class="main-container">
+        <header class="header">
+            <div class="header__navigation">
+                <img class="header__menu" src="./images/icon-menu.svg" alt="Menu" srcset="">
+                <img class="header__logo" src="./images/logo.svg" alt="logo" srcset="">
+                <nav class="navbar__items">
+                    <li><a href="#" class="navbar__link">Features</a></li>
+                    <li><a href="#" class="navbar__link">Company</a></li>
+                    <li><a href="#" class="navbar__link">Careers</a></li>
+                    <li><a href="#" class="navbar__link">About</a></li>
+                </nav>
+            </div>
+            <div class="header__autentication">
+                <div class="header__autentication--login">
+                    <p>Login</p>
+                </div>
+                <div class="header__autentication--register">
+                    <p>Register</p>
+                </div>
+            </div>
+        </header>
+    </main>
 
-  Features
+ <!--  Features
   Company
   Careers
   About
@@ -30,11 +46,11 @@
   Get your team in sync, no matter your location. Streamline processes, 
   create team rituals, and watch productivity soar.
 
-  Learn more
+  Learn more -->
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Esteban Maya</a>.
   </div>
 </body>
 </html>
